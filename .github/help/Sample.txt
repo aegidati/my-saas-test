@@ -1,0 +1,95 @@
+🔹 Esempio 1 — Nuovo Use Case (Backend Only)
+
+Scenario: aggiungi logica di cancellazione prenotazione.
+
+Phase: Implementation  
+Feature: #file:/docs/features/Features021-BookingCancellation.md  
+Objective: Implement booking cancellation use case.  
+Layers: Touch [Domain, Application, Infrastructure] / Do NOT touch [Presentation]  
+Constraints: Respect ADRs, no new deps, no architecture changes  
+Success: Architecture safe, secure, tested
+Perché così?
+
+Domain → regole di cancellazione
+
+Application → orchestration use case
+
+Infrastructure → repository update
+
+Presentation → non deve cambiare
+
+🔹 Esempio 2 — Solo UI Adjustment
+
+Scenario: migliorare il form di registrazione.
+
+Phase: Implementation  
+Feature: #file:/docs/features/Features012-UserRegistration.md  
+Objective: Improve form validation feedback.  
+Layers: Touch [Presentation] / Do NOT touch [Domain, Application, Infrastructure]  
+Constraints: Respect ADRs, no new deps  
+Success: No business logic in UI, secure validation
+Qui stai dicendo chiaramente:
+
+⚠️ Non voglio che Copilot sposti validazioni nel frontend se sono regole di dominio.
+
+🔹 Esempio 3 — Refactor del Domain Model
+
+Scenario: estrarre value object Email.
+
+Phase: Implementation  
+Feature: #file:/docs/features/Features012-UserRegistration.md  
+Objective: Extract Email value object in Domain layer.  
+Layers: Touch [Domain] / Do NOT touch [Application, Infrastructure, Presentation]  
+Constraints: No breaking changes  
+Success: Domain purity preserved, tests updated
+
+Qui stai bloccando qualsiasi effetto a cascata.
+
+🔹 Esempio 4 — Performance Fix su Repository
+
+Scenario: evitare N+1 query.
+
+Phase: Implementation  
+Feature: #file:/docs/features/Features034-UserList.md  
+Objective: Fix N+1 query in user listing.  
+Layers: Touch [Infrastructure] / Do NOT touch [Domain, Presentation]  
+Constraints: Respect repository abstraction  
+Success: No N+1, no layer violations
+
+Qui eviti che Copilot metta ottimizzazioni nel dominio.
+
+🔹 Esempio 5 — Review Strict Mode
+Phase: Review  
+Feature: #file:/docs/features/Features021-BookingCancellation.md  
+Objective: Perform strict architecture and security review.  
+Layers: Focus [All touched layers] / Flag violations if any  
+Constraints: Architecture prevails  
+Success: Clear prioritized fixes
+🔥 Cosa succede se NON scrivi Touch / Do NOT touch
+
+Copilot tenderà a:
+
+Spostare validazione dove è più comodo
+
+Introdurre logica nel controller
+
+Accorciare il percorso architetturale
+
+Modificare layer non richiesti
+
+La riga:
+
+Layers: Touch [...] / Do NOT touch [...]
+
+è uno dei controlli più potenti che puoi usare.
+
+🎯 Regola Strategica
+
+Se una feature è:
+
+Tipo	Touch
+Nuovo comportamento business	Domain + Application
+Nuova integrazione esterna	Infrastructure
+Solo UI	Presentation
+Query optimization	Infrastructure
+Nuovo caso d’uso	Application

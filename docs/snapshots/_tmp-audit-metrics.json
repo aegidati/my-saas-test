@@ -1,0 +1,490 @@
+﻿[
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-001-multi-tenancy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  1,
+        "normativeCount":  10,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-002-database-engine.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  4,
+        "normativeCount":  11,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-003-jwt-signing-strategy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  3,
+        "normativeCount":  12,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-004-caching-strategy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  7,
+        "normativeCount":  17,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-005-API-rate-limiting-strategy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  10,
+        "normativeCount":  24,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-006-background-job-processing-strategy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  1,
+        "normativeCount":  17,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-007-feature-flag-and-runtime-configuration-strategy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  1,
+        "normativeCount":  22,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-008-audit-logging-and-compliance-strategy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  2,
+        "normativeCount":  23,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-009-horizontal-scaling-and-load-balancing-strategy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  1,
+        "normativeCount":  20,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-010-data-governance-and-retention-policy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  2,
+        "normativeCount":  24,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-011-event-driven-architecture-strategy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  8,
+        "normativeCount":  20,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-012-distributed-tracing-strategy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  2,
+        "normativeCount":  13,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-013-api-versioning-strategy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  17,
+        "normativeCount":  29,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-014-advanced-secret-management-strategy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  5,
+        "normativeCount":  8,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-015-error-exception-handling-strategy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  14,
+        "normativeCount":  28,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-016-testing-strategy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  13,
+        "normativeCount":  17,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-017-dependency-management-strategy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  5,
+        "normativeCount":  10,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-018-migration-schema-evolution.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  4,
+        "normativeCount":  5,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-019-observability-logging-contract.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  4,
+        "normativeCount":  6,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\adr\\ADR-020-code-style-governance.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  3,
+        "normativeCount":  2,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\api-versioning.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  31,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\ARCHITECTURE.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  20,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\authentication.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  31,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\authorization.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  22,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\backend-structure.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  27,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\ci-cd.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  39,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\configurations.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  40,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\database-abstraction.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  29,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\error-handling.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  21,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\frontend-mobile.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  39,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\frontend-web.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  39,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\logging.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  33,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\multi-tenancy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  30,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\observability.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  26,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\packages.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  27,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\security-model.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  36,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\architecture\\testing-strategy.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  24,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\governance\\ADR-GUIDE.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  26,
+        "normativeCount":  6,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\governance\\DEFINITION-OF-DONE-TEMPLATE.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  8,
+        "normativeCount":  5,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\operations\\AGENTIC-WORKFLOW-PLAYBOOK.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  17,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  true
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\operations\\OPERATIONAL-PROMPT-SEQUENCE.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  4,
+        "normativeCount":  8,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  true
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\operations\\step-00\\STEP-00-dev-environment.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  15,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  true
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\operations\\step-01\\STEP-01A-documentation-alignment.md",
+        "hasRelatedADRsSection":  true,
+        "adrRefCount":  0,
+        "normativeCount":  15,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\operations\\step-01\\STEP-01-monorepo-bootstrap.md",
+        "hasRelatedADRsSection":  true,
+        "adrRefCount":  14,
+        "normativeCount":  27,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  true
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\operations\\step-02\\STEP-02-infrastructure-baseline.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  18,
+        "normativeCount":  15,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\operations\\step-03\\STEP-03-authentication-skeleton.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  24,
+        "normativeCount":  18,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\operations\\step-04\\STEP-04-multi-tenant-infrastructure.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  18,
+        "normativeCount":  16,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\operations\\step-05\\STEP-05-repository-service-foundation.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  8,
+        "normativeCount":  20,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\operations\\step-06\\STEP-06-testing-infrastructure.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  5,
+        "normativeCount":  16,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\operations\\STEP-RESPONSIBILITY-MATRIX.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  21,
+        "normativeCount":  10,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\prompts\\governance\\PROMPT-GOVERNANCE-CONVENTION.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  3,
+        "normativeCount":  17,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  true
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\prompts\\operational\\step-00\\STEP-00-dev-environment-prompt.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  9,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  true
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\prompts\\operational\\step-01\\STEP-01A-documentation-alignment-prompt.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  2,
+        "normativeCount":  11,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\prompts\\operational\\step-01\\STEP-01-bootstrap-prompt.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  8,
+        "normativeCount":  12,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  true
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\prompts\\operational\\step-02\\STEP-02-infrastructure-baseline-prompt.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  8,
+        "normativeCount":  7,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\prompts\\operational\\step-03\\STEP-03-authentication-skeleton-prompt.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  10,
+        "normativeCount":  7,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\prompts\\operational\\step-04\\STEP-04-multi-tenant-infrastructure-prompt.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  8,
+        "normativeCount":  10,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\prompts\\operational\\step-05\\STEP-05-repository-service-foundation-prompt.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  8,
+        "normativeCount":  7,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\prompts\\operational\\step-06\\STEP-06-testing-infrastructure-prompt.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  7,
+        "normativeCount":  8,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "C:\\Users\\a.egidati\\Documents\\agenticdev\\docs\\snapshots\\ARCHITECTURAL-DECISION-CONTEXT-SNAPSHOT.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  8,
+        "normativeCount":  3,
+        "hasDoD":  false,
+        "hasPromptGovernanceRef":  false
+    },
+    {
+        "file":  "c:\\Users\\a.egidati\\Documents\\agenticdev\\README.md",
+        "hasRelatedADRsSection":  false,
+        "adrRefCount":  0,
+        "normativeCount":  4,
+        "hasDoD":  true,
+        "hasPromptGovernanceRef":  true
+    }
+]
